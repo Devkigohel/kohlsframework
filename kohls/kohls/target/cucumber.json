@@ -1,0 +1,318 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3664081900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "kohlssteps.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login to account with credentials",
+        "description": "",
+        "id": "login-into-kohls-account;login-to-account-with-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3010899800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "kohlssteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 606130600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"https://www.kohls.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.kohls.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "kohlssteps.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2298881600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Account button",
+            "match": {
+              "location": "kohlssteps.user_clicks_on_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3178294100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on signin button",
+            "match": {
+              "location": "kohlssteps.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2187353900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the \"ng842002@gmail.com\" email address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ng842002@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "kohlssteps.user_enters_the_email_address(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64047700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the \"webdriver123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver123",
+                  "offset": 17
+                }
+              ],
+              "location": "kohlssteps.user_enters_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283804800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on sign in button",
+            "match": {
+              "location": "kohlssteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3309400,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat kohls.steps.kohlssteps.the_user_should_be_presented_with_the_following_pompt_alert(kohlssteps.java:71)\r\n\tat ✽.Then the user should be presented with the following pompt alert \"validation failed\"(kohlslogin.feature:12)\r\n",
+              "status": "pending"
+            },
+            "line": 12,
+            "name": "the user should be presented with the following pompt alert \"validation failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation failed",
+                  "offset": 61
+                }
+              ],
+              "location": "kohlssteps.the_user_should_be_presented_with_the_following_pompt_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3015484300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "kohlssteps.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login to account with credentials",
+        "description": "",
+        "id": "login-into-kohls-account;login-to-account-with-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3008335300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "kohlssteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 573540800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"https://www.kohls.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.kohls.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "kohlssteps.user_navigates_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2383611100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Account button",
+            "match": {
+              "location": "kohlssteps.user_clicks_on_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3106847100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on signin button",
+            "match": {
+              "location": "kohlssteps.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2118699600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the \"ng842002@gmail.com\" email address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ng842002@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "kohlssteps.user_enters_the_email_address(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58681400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the \"Sushila1984\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sushila1984",
+                  "offset": 17
+                }
+              ],
+              "location": "kohlssteps.user_enters_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292839200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on sign in button",
+            "match": {
+              "location": "kohlssteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 555000,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat kohls.steps.kohlssteps.the_user_should_be_presented_with_the_following_pompt_alert(kohlssteps.java:71)\r\n\tat ✽.Then the user should be presented with the following pompt alert \"validation succeeded\"(kohlslogin.feature:12)\r\n",
+              "status": "pending"
+            },
+            "line": 12,
+            "name": "the user should be presented with the following pompt alert \"validation succeeded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "validation succeeded",
+                  "offset": 61
+                }
+              ],
+              "location": "kohlssteps.the_user_should_be_presented_with_the_following_pompt_alert(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into kohls account",
+    "description": "",
+    "id": "login-into-kohls-account",
+    "keyword": "Feature",
+    "uri": "kohlslogin.feature"
+  }
+]
